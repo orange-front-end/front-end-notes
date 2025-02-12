@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    text-align: center;
+    /* padding: 5rem; */
+    padding: min(5rem, 8%);
+
+    h1 {
+        line-height: 3;
+    }
+}
+
+/* solution 1 */
+
+/* @media(max-width: 700px) {
+    .content {
+        padding: 8%;
+    }
+} */
