@@ -48,6 +48,14 @@ body {
   justify-content: center;
 }
 
+.center5 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid var(--background);
+  display: grid;
+  place-content: center;
+}
+
 .center4 {
   height: 300px;
   width: 300px;
