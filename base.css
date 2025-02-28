@@ -6,3 +6,9 @@
     --warn-color: #FD9A00;
     --error-color: #E7000B;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
