@@ -1,0 +1,17 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+  accent-color: var(--accent-color);
+  caret-color: var(--accent-color);
+}
+
+input[type="text"] {
+  padding: 1rem;
+}
+
+input[type="text"]:focus {
+  outline: solid var(--accent-color);
+}
